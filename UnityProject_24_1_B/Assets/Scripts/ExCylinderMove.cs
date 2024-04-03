@@ -16,7 +16,7 @@ public class ExCylinderMove : MonoBehaviour
     {
         gameObject.transform.position += new Vector3(-1.0f, 0.0f, 0.0f) * Time.deltaTime * MoveSpeed;
 
-        if(gameObject.transform.position.x < - 12)
+        if(gameObject.transform.position.x < -12)
         {
             gameObject.transform.position += new Vector3(24.0f, 0.0f, 0.0f);
         }
