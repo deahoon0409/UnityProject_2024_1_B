@@ -7,6 +7,7 @@ TagManager:
   - Pipe
   - Item
   - Target
+  - GameManager
   layers:
   - Default
   - TransparentFX
