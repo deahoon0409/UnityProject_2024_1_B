@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
             if(TimeCheck <= 0 )
             {
                 int RandNumber = Random.Range(0, 3);
-                GameObject Temp = Instantiate(CircleObject[0]);
+                GameObject Temp = Instantiate(CircleObject[RandNumber]);
                 Temp.transform.position = GenTransform.position;
                 isGen = true;
             }
